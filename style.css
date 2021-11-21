@@ -102,7 +102,6 @@ body {
     height: 200px;
     transform: rotateX(10deg) translateZ(30px);
     overflow-y: scroll;
-    -ms-overflow-style: none;
     scrollbar-width: none;
 }
 
