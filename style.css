@@ -48,7 +48,7 @@ body {
 
 #left-window {
     transform: rotateX(7deg) rotateZ(-34deg) translate3d(-300px, -150px, 20px);
-    width: 200px;
+    width: 250px;
 }
 
 #center-window {
@@ -58,7 +58,7 @@ body {
 
 #right-window {
     transform: rotateX(7deg) rotateZ(34deg) translate3d(300px, -150px, 20px);
-    width: 200px;
+    width: 250px;
 }
 
 /* #text-panel-1 {
