@@ -56,8 +56,8 @@ body {
 }
 
 #center-window {
-    transform: rotateX(-7deg) translate3d(0px, 0px, 20px);
-    height: 200px;
+    transform: rotateX(-7deg) translate3d(0px, -3px, 20px);
+    height: 194px;
 }
 
 #right-window {
@@ -74,7 +74,7 @@ body {
     background-position: bottom;
     background-size: cover;
     z-index: -1;
-    clip-path: polygon(29% 0, 71% 0%, 65.5% 47%, 67% 47%, 72.6% 1%, 96.1% 27.5%, 100% 100%, 67% 47%, 65.5% 47%, 34.5% 47%, 33% 47%, 0% 100%, 3.9% 27.5%, 27.4% 1%, 33% 47%, 34.5% 47%);
+    clip-path: polygon(29% 0%, 71% 0%, 65.5% 46%, 67% 47%, 72.6% 1%, 96.1% 27.5%, 100% 100%, 67% 47%, 65.5% 46%, 34.5% 46%, 33% 47%, 0% 100%, 3.9% 27.5%, 27.4% 1%, 33% 47%, 34.5% 46%);
     filter: hue-rotate(256) saturate(3);
 }
 
