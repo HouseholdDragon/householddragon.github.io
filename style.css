@@ -20,14 +20,13 @@ body {
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: center;
-    transform: perspective(100px);
-    transform-style: preserve-3d;
-    height: 1000px;
     flex-direction: column;
+    height: 2000px;
 }
 
 #spaceship-interior {
+    transform: perspective(100px);
+    transform-style: preserve-3d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -63,7 +62,6 @@ body {
 }
 
 #main-text {
-    top: 650px;
     position: absolute;
 }
 
