@@ -13,8 +13,6 @@ body {
     background-color: black;
     font-size: 20px;
     padding: 0px;
-    transform: perspective(100px);
-    transform-style: preserve-3d;
     position: absolute;
     top: 0;
     left: 0;
@@ -26,6 +24,8 @@ body {
 }
 
 #spaceship-interior {
+    transform: perspective(100px);
+    transform-style: preserve-3d;
     display: flex;
     align-items: center;
     justify-content: center;
