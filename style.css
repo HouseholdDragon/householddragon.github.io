@@ -47,7 +47,7 @@ body {
 }
 
 #left-window {
-    transform: rotateX(7deg) rotateZ(-34deg) translate3d(-300px, -150px, 20px);
+    transform: rotateX(7deg) rotateZ(-34deg) translate3d(-320px, -150px, 20px);
     width: 250px;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 #right-window {
-    transform: rotateX(7deg) rotateZ(34deg) translate3d(300px, -150px, 20px);
+    transform: rotateX(7deg) rotateZ(34deg) translate3d(320px, -150px, 20px);
     width: 250px;
 }
 
