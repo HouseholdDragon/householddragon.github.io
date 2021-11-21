@@ -24,6 +24,7 @@ body {
     align-items: center;
     flex-direction: column;
     height: 2000px;
+    z-index: -3;
 }
 
 #spaceship-interior {
@@ -36,6 +37,7 @@ body {
     left: 0px;
     right: 0px;
     height: 600px;
+    z-index: -2;
 }
 
 .window {
@@ -45,6 +47,7 @@ body {
     margin-left: 7px;
     margin-right: 7px;
     position: fixed;
+    z-index: 1;
     
 }
 
@@ -68,8 +71,10 @@ body {
     top: 158px;
     width: 1406px;
     height: 535px;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg) center center;
+    background: url(https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) center center;
+    background-position: bottom;
     background-size: cover;
+    z-index: -1;
     clip-path: polygon(29% 0, 71% 0%, 65.5% 47%, 67% 47%, 72.6% 1%, 96.1% 27.5%, 100% 100%, 67% 47%, 65.5% 47%, 34.5% 47%, 33% 47%, 0% 100%, 3.9% 27.5%, 27.4% 1%, 33% 47%, 34.5% 47%);
 }
 
