@@ -8,3 +8,54 @@ body {
     color:#0f0;
     font-family: 'Courier Prime', monospace;
 }
+
+#main-body {
+    font-size: 20px;
+    padding: 20px;
+    transform: perspective(100px);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#spaseship-interior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+#left-window {
+    border: 1px solid #0f0
+}
+
+#center-window {
+    border: 1px solid #0f0;
+    width: 400px;
+    height: 200px;
+    transform: rotateX(-10deg);
+}
+
+/* #text-panel-1 {
+    border: 0px solid #0f0;
+    width: 400px;
+    height: 200px;
+    transform: rotateX(15deg);
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+} */
