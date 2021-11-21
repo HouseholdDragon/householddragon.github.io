@@ -4,9 +4,11 @@ body {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: #0f0;
+    background-color: #000;
     color:#0f0;
     font-family: 'Courier Prime', monospace;
+    user-select: none;
+    cursor: pointer;
 }
 
 #main-body {
