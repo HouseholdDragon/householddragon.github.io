@@ -62,14 +62,19 @@ body {
 }
 
 #main-text {
+    transform: perspective(100px);
+    transform-style: preserve-3d;
     position: absolute;
+    top: 450px;
+    /* text-align: justify; */
+    font-size: 20px;
 }
 
 #text-panel-1 {
     border: 0px solid #0f0;
     width: 400px;
     height: 200px;
-    transform: rotateX(15deg) translateZ(30px);
+    transform: rotateX(10deg) translateZ(30px);
     overflow-y: scroll;
     -ms-overflow-style: none;
     scrollbar-width: none;
