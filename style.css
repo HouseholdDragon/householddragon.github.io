@@ -63,6 +63,16 @@ body {
     width: 250px;
 }
 
+#clip-test {
+    position: absolute;
+    top: 158px;
+    width: 1406px;
+    height: 535px;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/Harry-Potter-1-.jpg) center center;
+    background-size: cover;
+    clip-path: polygon(29% 0, 71% 0%, 65.5% 47%, 67% 47%, 72.6% 1%, 96.1% 27.5%, 100% 100%, 67% 47%, 65.5% 47%, 34.5% 47%, 33% 47%, 0% 100%, 3.9% 27.5%, 27.4% 1%, 33% 47%, 34.5% 47%);
+}
+
 #main-text {
     transform: perspective(100px);
     transform-style: preserve-3d;
