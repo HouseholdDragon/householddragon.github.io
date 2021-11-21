@@ -93,6 +93,7 @@ body {
     top: 450px;
     /* text-align: justify; */
     font-size: 20px;
+    z-index: 2
 }
 
 #text-panel-1 {
