@@ -110,21 +110,21 @@ body {
     background: url(https://steamuserimages-a.akamaihd.net/ugc/951857668148675039/DEE6B85887DB25E1C531CC813CE37D2231936DD8/?imw=116&imh=65&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true) center center;
     background-size: cover;
     background-position: bottom; */
-    transform: perspective(100px);
-    transform-style: preserve-3d;
-    align-items: center;
+    justify-content: center;
+    display: flex;
     
     
-}
-
-#fins {
+  }
+  
+  #fins {
     align-items: center;
     justify-content: center;
     display: flex;
-    align-items: center;
     position: absolute;
     height: 600px;
     width: 800px;
+    transform: perspective(100px);
+    transform-style: preserve-3d;
 }
 
 .fin {
@@ -135,11 +135,11 @@ body {
 }
 
 #fin-left {
-    /* transform: rotateX(20deg) rotateZ(-30deg) translate3d(90px, 30px, 0px); */
+    transform: rotateX(20deg)  rotateZ(-20deg) translate3d(-450px, -70px, 0px);
 }
 
 #fin-right {
-    /* transform: rotateX(20deg) rotateZ(-30deg) translate3d(-90px, 30px, 0px);  */
+  transform: rotateX(20deg) rotateZ(20deg) translate3d(450px, -70px, 0px);
 }
 
 #overlay {
@@ -148,6 +148,7 @@ body {
     height: 535px;
     background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Solid_green.svg/2048px-Solid_green.svg.png);
     filter: opacity(.05);
+    display: flexs;
 }
 
 #main-text {
@@ -167,6 +168,7 @@ body {
     transform: rotateX(10deg) translateZ(30px);
     overflow-y: scroll;
     scrollbar-width: none;
+    font-size: 16px;
 }
 
 #bio-scan {
@@ -174,20 +176,20 @@ body {
     width: 963px;
     background: url(./ku-green-infill.png);
     position: absolute;
-    top: 1000px;
+    top: 1200px;
 }
 
 #name {
     position:absolute;
     display: flex;
-    transform: translate(0px, -150px);
+    transform: translate(0px, -350px);
     font-size: 50px;
     flex-direction: column;
 }
 
 #nameplate {
     font-size: 20px;
-    transform: translateX(152px);
+    transform: translateY(-1px);
 }
 
 #blind {
@@ -235,7 +237,51 @@ body {
     width: 90px;
     position: relative;
     border-bottom: 3px solid #0f0;
-    transform: translate(228px, 170px) rotateZ(-30deg);
+    transform: translate(58px, 170px) rotateZ(-30deg);
+}
+
+#claws {
+    display: flex;
+    position: absolute;
+}
+
+#stats-text3 {
+  display: flex;
+  position: relative;
+  border-bottom: 3px solid #0f0;
+  height: 30px;
+  width: 220px;
+  transform: translate(334px, 220px);
+}
+
+#line3 {
+  height: 10px;
+  width: 90px;
+  position: relative;
+  border-bottom: 3px solid #0f0;
+  transform: translate(330px, 263px) rotateZ(30deg);
+}
+
+#hearing {
+  display: flex;
+  position: absolute;
+}
+
+#stats-text4 {
+  display: flex;
+  position: relative;
+  border-bottom: 3px solid #0f0;
+  height: 50px;
+  width: 100px;
+  transform: translate(521px, 113px);
+}
+
+#line4 {
+  height: 10px;
+  width: 120px;
+  position: relative;
+  border-bottom: 3px solid #0f0;
+  transform: translate(510px, 124px) rotateZ(-30deg);
 }
 
 ::-webkit-scrollbar {
