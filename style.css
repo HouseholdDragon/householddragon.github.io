@@ -129,7 +129,7 @@ body {
 
 .fin {
     height: 600px;
-    width: 100px;
+    width: 150px;
     background-color: #0f0;
     position: relative;
 }
@@ -176,7 +176,7 @@ body {
     width: 963px;
     background: url(./ku-green-infill.png);
     position: absolute;
-    top: 1200px;
+    top: 2500px;
 }
 
 #name {
