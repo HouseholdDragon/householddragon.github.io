@@ -59,7 +59,7 @@ body {
     position: absolute;
     left: 0px;
     right: 0px;
-    top:1000px;
+    top:0px;
     height: 600px;
     z-index: 1;
 }
@@ -91,7 +91,7 @@ body {
 
 #clipping-mask {
     position: absolute;
-    top: 1158px;
+    top: 158px;
     width: 1406px;
     height: 535px;
     clip-path: polygon(29% 0%, 71% 0%, 65.5% 46%, 67% 47%, 72.6% 1%, 96.1% 27.5%, 100% 100%, 67% 47%, 65.5% 46%, 34.5% 46%, 33% 47%, 0% 100%, 3.9% 27.5%, 27.4% 1%, 33% 47%, 34.5% 46%);
@@ -156,7 +156,7 @@ body {
     transform: perspective(100px);
     transform-style: preserve-3d;
     position: absolute;
-    top: 1450px;
+    top: 450px;
     /* text-align: justify; */
     font-size: 20px;
     z-index: 2
@@ -177,7 +177,7 @@ body {
     width: 963px;
     background: url(./ku-green-infill.png);
     position: absolute;
-    top: 2500px;
+    top: 1200px;
 }
 
 #name {
