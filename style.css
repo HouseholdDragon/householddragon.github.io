@@ -213,6 +213,8 @@ body {
     font-size: 16px;
 }
 
+/* ---Bio Scan--- */
+
 #bio-scan {
     height: 534px;
     width: 963px;
@@ -238,7 +240,6 @@ body {
     display: flex;
     position: absolute;
 }
-
 
 #stats-text1 {
   position: relative;
@@ -305,8 +306,8 @@ body {
   position: relative;
   border-bottom: 3px solid #0f0;
   height: 30px;
-  width: 220px;
-  transform: translate(334px, 220px);
+  width: 140px;
+  transform: translate(414px, 220px);
 }
 
 #line3 {
@@ -314,7 +315,7 @@ body {
   width: 90px;
   position: relative;
   border-bottom: 3px solid #0f0;
-  transform: translate(330px, 263px) rotateZ(30deg);
+  transform: translate(410px, 263px) rotateZ(30deg);
 }
 
 #hearing {
@@ -339,15 +340,57 @@ body {
   transform: translate(510px, 124px) rotateZ(-30deg);
 }
 
+/* ---Ship Scan--- */
+
 #ship-scan {
-    height: 768px;
-    width: 1536px;
+    height: 1200px;
+    width: 660px;
     background: url(./ship-infill-yeah.png);
     position: absolute;
     top: 2000px;
     background-size: contain;
     background-repeat: no-repeat;
-    transform: translateX(70px);
+    display: flex;
+}
+
+#alias {
+    font-size: 50px;
+    transform: translate(-160px, -150px);
+}
+
+#type {
+    font-size: 20px;
+}
+
+#ship-key {
+    position: relative;
+    transform: translateY(50px);
+    font-size: 20px;
+}
+
+#numbers {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transform: translate(15px, 460px);
+    font-size: 25px;
+}
+
+#s2 {
+    transform:translate(92px, 75px);
+}
+
+#s3 {
+    transform:translate(-71px, 69px);
+}
+
+#s4 {
+    transform:translate(-91px, 155px);
+}
+
+#s5 {
+    transform:translate(84px, 136px);
 }
 
 ::-webkit-scrollbar {
@@ -550,4 +593,3 @@ to{border-right-color: transparent;}
   .crt {
     animation: textShadow 1.6s infinite;
   }
-  
