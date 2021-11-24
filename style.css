@@ -340,13 +340,14 @@ body {
 }
 
 #ship-scan {
-    height: 512px;
-    width: 1024px;
+    height: 768px;
+    width: 1536px;
     background: url(./ship-infill-yeah.png);
     position: absolute;
     top: 2000px;
     background-size: contain;
     background-repeat: no-repeat;
+    transform: translateX(70px);
 }
 
 ::-webkit-scrollbar {
