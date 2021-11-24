@@ -369,28 +369,48 @@ body {
 }
 
 #numbers {
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     flex-direction: column;
-    transform: translate(15px, 460px);
+    transform: translate(315px, 460px);
     font-size: 25px;
 }
 
 #s2 {
-    transform:translate(92px, 75px);
+    transform:translate(92px, 73px);
 }
 
 #s3 {
-    transform:translate(-71px, 69px);
+    transform:translate(-71px, 66px);
 }
 
 #s4 {
-    transform:translate(-91px, 155px);
+    transform:translate(-91px, 152px);
 }
 
 #s5 {
-    transform:translate(84px, 136px);
+    transform:translate(84px, 133px);
+}
+
+#s6 {
+    transform:translate(117px, 196px);
+}
+
+#s7 {
+    transform:translate(121px, 263px);
+}
+
+#s8 {
+    transform:translate(-30px, 200px);
+}
+
+#s9 {
+    transform:translate(-131px, 145px);
+}
+
+#s10 {
+    transform:translate(0px, 273px);
 }
 
 ::-webkit-scrollbar {
