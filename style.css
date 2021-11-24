@@ -339,6 +339,16 @@ body {
   transform: translate(510px, 124px) rotateZ(-30deg);
 }
 
+#ship-scan {
+    height: 512px;
+    width: 1024px;
+    background: url(./ship-infill-yeah.png);
+    position: absolute;
+    top: 2000px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
