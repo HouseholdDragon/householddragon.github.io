@@ -34,5 +34,13 @@ body {
 }
 
 .indent1 {
-    transform: translateX(20px);
+    transform: translateX(40px);
+}
+
+.indent2 {
+    transform: translateX(30px);   
+}
+
+a:link {
+    text-decoration: none;
 }
