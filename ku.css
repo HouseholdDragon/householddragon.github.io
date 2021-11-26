@@ -25,7 +25,7 @@ body {
     flex-direction: column;
     height: 3500px;
     /* z-index: -3; */
-    overflow-x: hidden;
+
 }
 
 #field {
